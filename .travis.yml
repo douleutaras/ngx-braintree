@@ -1,0 +1,15 @@
+sudo: false
+language: node_js
+node_js:
+  - "8"
+before_deploy:
+  - cd projects/ngx-braintree
+deploy:
+  provider: npm
+  email: v.klymenko@douleutaras.com
+  file_glob: true
+  file: projects/ngx-braintree/*
+  api_key:
+    secure: HabHJV+xjjvnt1biUp0U3V3NHx8umauKCGdUbCPWZtwC7Yc5npcCpxCYunnubm/hEnccF9fswof2ZveXZrDpaIwCdDXFCnRXEu3RnCFlQkqMtdeIhhR5TzAKd2uZRC0Io9CbLbTIFr/Pemp4QpM6uF074CBHqaoVB0UFKx1MFKtQ7ZErtDzawYezQqZQNMjG+d/uQf0LHW4EXdGBqccEJ5K1LHnqJuBE81EyOnoPeSYIw9sLNPIKP0roRaB6USvjNM3FjtJSBrwRTBTPeBY2Qnd+GyV7Q6dOeUXZlmfqZTSTb0VOGyGQNtRCvldojk4U5G3K/2usT6e4LUN9KMx+rGXQOsvbnMLVk6sJKR+oJSLyyRZc/YjgMGWXO+eoxWcanFRieL3h4X9UTZviVoRWCLPjIrAIngPRvp36iJIrqyl1fGhlrln/HfipGSzEoSoe9elRsiI4U/n2BIgg85f2/SB1j8E3DjlxsOI4A+EfiZn2qsQWpETBWzOsejU4zKEnUrKD29papokvaW1i4D5nYqMqK4elE4TZk36R5CNeTX69yVarr8JaQbuwRkULhaM9p78dzUkdUHr3ABVgZiunL+fR2fWkI2CB22ehDVRwES4WTzHSxItul17lHl3QS1w9r6cA8gpbfSk3UGZB76Zwmb+kYxBsYC8s5XrsOQHFrnk=
+  on:
+    repo: douleutaras/ngx-braintree

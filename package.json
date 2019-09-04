@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --proxy-config proxy.config.json",
-    "build": "ng-packagr -p projects/ngx-braintree/package.json",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ng-packagr -p projects/ngx-braintree/package.json"
   },
   "private": true,
   "dependencies": {

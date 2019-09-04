@@ -1,6 +1,6 @@
 {
-  "$schema": "/home/travis/build/douleutaras/ngx-braintree/node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "/home/travis/build/douleutaras/ngx-braintree/projects/ngx-braintree/dist/",
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/ngx-braintree",
   "deleteDestPath": false,
   "lib": {
     "entryFile": "src/public_api.ts"

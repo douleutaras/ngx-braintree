@@ -3,7 +3,7 @@ language: node_js
 node_js:
   - "8"
 before_deploy:
-  - cd projects/ngx-braintree
+  - cd projects/ngx-braintree/dist
 deploy:
   provider: npm
   email: v.klymenko@douleutaras.com

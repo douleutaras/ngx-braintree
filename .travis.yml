@@ -10,6 +10,7 @@ deploy:
   provider: npm
   email: v.klymenko@douleutaras.com
   file_glob: true
+  skip_cleanup: true
   file: projects/ngx-braintree/dist/*
   api_key:
     secure: bhh9y0OEicIWAx+dM4uQViHVcV+W/Rpwd3ygcs4a6uYLP1PXUS712ccZ/x/nbmEuD8Rzu0nDHY38gSNZ6KVATxk6rkKOVFR3/l9BpfPnUB939GP9Sl/zqqQuyD8Wtt+WHp+xg5Ii5cMl9lFq+r0bIqUx6vrmz9u6jWir/AV9QBCI1s2ck48KC4LtcwkIQ1ms1DgKWymP0Pf3PcWzC20JympbPEvTxloy+8ebgvT3OQY6uag9C13GSahiiko78gmgoECgRACYhhF4Dlby4pCLBWVHUrceDP+PYDTaAA5ER2WxpPYogWY6RyMdKQ67YXEtYrMxua0hRY8Ea0xUtftr9svITGWhUYxiHq7AYGVVKg0FHOqlBdQ6YgID/VodiZucbkCj0FS8qKmT/U6Iiz4caTDfWbxm8ePNL4FcKf6WTEI4HBqQnGGQAmpfrCWBMsfzLzh0CEjJbfXaMFo+2yOSXdALbjH65IjRG8CpbZCTNg/HGaAg/EfzmU99U6qd2dyZdTWDF7AKkOHP5Aq0YR66TFBQeTRgWqPUlxCSB0SAzUlfzZgE2jC+9smhJzDGEdayHRnxI4b6fOnao5rPzIuNCxgneGfCi4xnUoDWZB3eoYeyzFUJQN+HdcBmgankoZmquGsLGLD+XJu9Tyf7QIjgxMUaw7Ko6vgfP1lN+s+uBw8=
